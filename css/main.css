@@ -20,27 +20,27 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 13em;
+    font-size: 40px;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h2 {
-    font-size: 11em;
+    font-size: 30px;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h3 {
-    font-size: 9em;
+    font-size: 25px;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h4 {
-    font-size: 7em;
+    font-size:20px;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h5 {
-    font-size: 5em;
+    font-size: 15em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h6 {
-    font-size: 3em;
+    font-size: 10px;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
