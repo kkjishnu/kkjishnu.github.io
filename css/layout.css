@@ -460,16 +460,16 @@ ul#nav li.current a { color: #F06000; }
 .popup-modal .description-box h4 {
    font: 15px/24px 'opensans-bold', sans-serif;
 	margin-bottom: 12px;
-   color: #111;
+   color: #00CCCC;
 }
 .popup-modal .description-box p {
 	font: 14px/24px 'opensans-regular', sans-serif;
-   color: #0F0F0F;
+   color: #00CCCC;
    margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
    font: 11px/21px 'opensans-light', sans-serif;
-   color: #0f0f0f;
+   color: #00CCCC;
    text-transform: uppercase;
    letter-spacing: 2px;
    display: block;
