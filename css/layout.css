@@ -219,7 +219,7 @@ ul#nav li.current a { color: #F06000; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: #444;
+   background: rgb(100, 100, 100);
 }
 #about .download .button:hover {
    background: #fff;
@@ -281,68 +281,6 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 
-/*----------------------------------------------*/
-/*	Skill Bars
-/*----------------------------------------------*/
-
-.bars{
-  width: 95%;
-  float: left;
-  padding: 0;
-  text-align: left;
-}
-
-.bars .skills{
-  margin-top: 36px;
-  list-style: none;
-}
-
-.bars li{
-  position: relative;
-  margin-bottom: 60px;
-  background: #CCC;
-  height: 42px;
-  border-radius: 3px;
-}
-
-.bars li em{
-  font: 15px 'opensans-bold', 'sans-serif';
-  color: #313131;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: normal;
-  position: relative;
-  top: -36px;
-}
-
-.bars-expand{
-  position: absolute;
-  left: 0;
-  top: 0;
-  margin: 0;
-  padding-right: 24px;
-  background: #313131;
-  display: inline-block;
-  height: 42px;
-  line-height: 42px;
-  border-radius: 3px 0 0 3px;
-}
-
-.python{
-  width: 80%;
-  -moz-animation: python 2s ease;
-  -webkit-animation: python 2s ease;
-}
-
-@-moz-keyframes python{
-  0% {width: 0px: }
-  100% {width: 80%; }
-}
-
-@-webkit-keyframes python{
-  0% {width: 0px: }
-  100% {width: 80%; }
-}
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
@@ -572,69 +510,6 @@ call-to-action .button {
 	color: #D8D8D8;
 }
 
-/* ------------------------------------------------------------------
-/* g. Testimonials
-/* ------------------------------------------------------------------ */
-
-#testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
-   background-attachment: fixed;
-
-   position: relative;
-   min-height: 200px;
-   width: 100%;
-   overflow: hidden;
-}
-#testimonials .text-container {
-   padding-top: 96px;
-   padding-bottom: 66px;
-}
-#testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   color: #fff;
-}
-#testimonials h1 span { display: none; }
-#testimonials .header-col { padding-top: 9px; }
-#testimonials .header-col h1:before {
-   font-family: 'FontAwesome';
-   content: "\f10d";
-	padding-right: 10px;
-	font-size: 72px;
-   line-height: 72px;
-   text-align: left;
-   float: left;
-   color: #fff;
-}
-
-/*	Blockquotes */
-#testimonials blockquote {
-   margin: 0 0px 30px 0px;
-   padding-left: 0;
-   position: relative;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-}
-#testimonials blockquote:before { content: none; }
-#testimonials blockquote p {
-   font-family: 'librebaskerville-italic', serif;
-   padding: 0;
-   font-size: 24px;
-   line-height: 48px;
-   color: #fff
-}
-#testimonials blockquote cite {
-   display: block;
-   font-size: 12px;
-   font-style: normal;
-   line-height: 18px;
-   color: #fff;
-}
-#testimonials blockquote cite:before { content: "\2014 \0020"; }
-#testimonials blockquote cite a,
-#testimonials blockquote cite a:visited { color: #8B9798; border: none }
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
@@ -726,7 +601,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: rgb(32, 20, 20);
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
@@ -737,11 +612,12 @@ call-to-action .button {
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 48px/72px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #EBEEEE;
    margin-bottom: 6px;
+   text-align: center;
 }
 #contact h1 span { display: none; }
 #contact h1:before {
@@ -750,8 +626,8 @@ call-to-action .button {
 	padding-right: 10px;
 	font-size: 72px;
    line-height: 72px;
-   text-align: left;
-   float: left;
+   text-align: center;
+   float: center;
    color: #ebeeee;
 }
 
@@ -774,7 +650,7 @@ call-to-action .button {
    margin: 12px 0;
    color: #EBEEEE;
 	display: inline-block;
-	float: left;
+	float: center;
    width: 26%;
 }
 #contact input,
@@ -800,7 +676,7 @@ call-to-action .button {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color:#fff;
-   background: #0D0D0D;
+   background: #e2bfbf;
 	border: none;
    cursor: pointer;
    height: auto;
@@ -839,24 +715,6 @@ call-to-action .button {
 }
 
 
-/* Twitter Feed */
-#twitter {
-   margin-top: 12px;
-   padding: 0;
-}
-#twitter li {
-   margin: 6px 0px 12px 0;
-   line-height: 30px;
-}
-#twitter li span {
-   display: block;
-}
-#twitter li b a {
-   font: 13px/36px 'opensans-regular', Sans-serif;
-   color: #474747 !important;
-   border: none;
-}
-
 
 /* ------------------------------------------------------------------ */
 /* i. Footer
@@ -884,6 +742,7 @@ footer .copyright li {
     margin: 0;
     padding: 0;
     line-height: 24px;
+    color: #d1e7e7;
 }
 .ie footer .copyright li {
    display: inline;
@@ -892,7 +751,7 @@ footer .copyright li:before {
     content: "\2022";
     padding-left: 10px;
     padding-right: 10px;
-    color: #095153;
+    color: #d1e7e7;
 }
 footer .copyright  li:first-child:before {
     display: none;
